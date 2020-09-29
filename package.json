@@ -1,0 +1,24 @@
+{
+  "name": "ts-js-mix-practice",
+  "version": "0.1.0",
+  "author": "segur",
+  "bugs": {
+    "url": "https://github.com/segurvita/ts-js-mix-practice/issues"
+  },
+  "dependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "homepage": "https://github.com/segurvita/ts-js-mix-practice#readme",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segurvita/ts-js-mix-practice.git"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "launch": "node public/js/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
