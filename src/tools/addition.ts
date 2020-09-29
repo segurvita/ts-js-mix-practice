@@ -1,4 +1,4 @@
-const addition = (hoge, fuga) => {
+const addition = (hoge: number, fuga: number) => {
     return hoge + fuga;
 };
 
